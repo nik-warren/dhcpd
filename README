@@ -1,0 +1,23 @@
+# Build the container:
+
+cd /home/devops/containers/dhcpd
+sudo podman build -t dhcpd:latest -f Containerfile .
+
+# Get the image ID
+
+sudo podman images
+
+# Now run by image ID (insert your correct ID)
+
+sudo podman run -d \
+  --name dhcpd \
+  --network host \
+  --privileged \
+  -v /home/devops/containers/dhcpd/config/dhcpd.conf:/host-config/dhcpd.conf:ro,Z \
+  -v /home/devops/containers/dhcpd/config/leases:/var/lib/dhcpd:Z \
+  37a56aeb310f
+
+# Check for leases
+
+sudo podman logs dhcpd
+cat /home/devops/containers/dhcpd/config/leases/dhcpd.leases

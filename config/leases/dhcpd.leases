@@ -1,0 +1,108 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.2b1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+server-duid "\000\001\000\0011\3528\002\000PV\260\202\327";
+
+lease 10.150.71.101 {
+  starts 3 2026/07/15 12:22:35;
+  ends 3 2026/07/15 12:32:35;
+  cltt 3 2026/07/15 12:22:35;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.102 {
+  starts 3 2026/07/15 12:22:36;
+  ends 3 2026/07/15 12:32:36;
+  cltt 3 2026/07/15 12:22:36;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.103 {
+  starts 3 2026/07/15 12:23:38;
+  ends 3 2026/07/15 12:33:38;
+  cltt 3 2026/07/15 12:23:38;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.102 {
+  starts 3 2026/07/15 12:26:35;
+  ends 3 2026/07/15 12:36:35;
+  cltt 3 2026/07/15 12:26:35;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.101 {
+  starts 3 2026/07/15 12:27:31;
+  ends 3 2026/07/15 12:37:31;
+  cltt 3 2026/07/15 12:27:31;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.103 {
+  starts 3 2026/07/15 12:27:59;
+  ends 3 2026/07/15 12:37:59;
+  cltt 3 2026/07/15 12:27:59;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.102 {
+  starts 3 2026/07/15 12:30:27;
+  ends 3 2026/07/15 12:40:27;
+  cltt 3 2026/07/15 12:30:27;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.101 {
+  starts 3 2026/07/15 12:31:18;
+  ends 3 2026/07/15 12:41:18;
+  cltt 3 2026/07/15 12:31:18;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.103 {
+  starts 3 2026/07/15 12:32:07;
+  ends 3 2026/07/15 12:42:07;
+  cltt 3 2026/07/15 12:32:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.102 {
+  starts 3 2026/07/15 12:34:26;
+  ends 3 2026/07/15 12:44:26;
+  cltt 3 2026/07/15 12:34:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
