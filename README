@@ -20,3 +20,36 @@ sudo podman run -d \
 
 sudo podman logs dhcpd
 cat /home/devops/containers/dhcpd/config/leases/dhcpd.leases
+
+
+# added conatiner to start at boot
+
+sudo tee /etc/systemd/system/dhcpd.service > /dev/null <<'EOF'
+[Unit]
+Description=DHCP server container
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/podman run --name dhcpd --network host --privileged \
+  -v /home/devops/dhcpd/config/dhcpd.conf:/host-config/dhcpd.conf:ro,Z \
+  -v /home/devops/dhcpd/config/leases:/var/lib/dhcpd:Z \
+  localhost/dhcpd:latest
+ExecStop=/usr/bin/podman stop -t 10 dhcpd
+ExecStopPost=/usr/bin/podman rm -f dhcpd
+TimeoutStartSec=60
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# Enable it
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now dhcpd.service
+sudo systemctl status dhcpd.service
+
+# Check process is running
+
+sudo podman logs dhcpd

@@ -160,3 +160,33 @@ lease 10.150.71.104 {
   uid "\001\000PV\260\324\177";
   client-hostname "CI-CON-HOST01";
 }
+lease 10.150.71.101 {
+  starts 4 2026/07/16 15:00:43;
+  ends 4 2026/07/16 15:10:43;
+  cltt 4 2026/07/16 15:00:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.102 {
+  starts 4 2026/07/16 15:01:10;
+  ends 4 2026/07/16 15:11:10;
+  cltt 4 2026/07/16 15:01:10;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.103 {
+  starts 4 2026/07/16 15:01:35;
+  ends 4 2026/07/16 15:11:35;
+  cltt 4 2026/07/16 15:01:35;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
