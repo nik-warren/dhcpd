@@ -149,3 +149,14 @@ lease 10.150.71.103 {
   hardware ethernet 00:50:56:6e:5e:b8;
   uid "\001\000PVn^\270";
 }
+lease 10.150.71.104 {
+  starts 4 2026/07/16 14:59:14;
+  ends 4 2026/07/16 15:09:14;
+  cltt 4 2026/07/16 14:59:14;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:b0:d4:7f;
+  uid "\001\000PV\260\324\177";
+  client-hostname "CI-CON-HOST01";
+}
