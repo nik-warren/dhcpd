@@ -10,12 +10,11 @@ sudo podman images
 # Now run by image ID (insert your correct ID)
 
 sudo podman run -d \
-  --name dhcpd \
   --network host \
   --privileged \
-  -v /home/devops/containers/dhcpd/config/dhcpd.conf:/host-config/dhcpd.conf:ro,Z \
-  -v /home/devops/containers/dhcpd/config/leases:/var/lib/dhcpd:Z \
-  37a56aeb310f
+  -v /home/devops/dhcpd/config/dhcpd.conf:/host-config/dhcpd.conf:ro,Z \
+  -v /home/devops/dhcpd/config/leases:/var/lib/dhcpd:Z \
+  dhcpd:latest
 
 # Check for leases
 
