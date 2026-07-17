@@ -31,44 +31,10 @@ lease 10.150.71.106 {
   hardware ethernet 00:50:56:b0:7c:4e;
   uid "\001\000PV\260|N";
 }
-lease 10.150.71.102 {
-  starts 4 2026/07/16 14:46:57;
-  ends 4 2026/07/16 14:56:57;
-  tstp 4 2026/07/16 14:56:57;
-  cltt 4 2026/07/16 14:46:57;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 00:50:56:65:6e:5f;
-  uid "\001\000PVen_";
-}
-lease 10.150.71.103 {
-  starts 4 2026/07/16 14:48:25;
-  ends 4 2026/07/16 14:58:25;
-  tstp 4 2026/07/16 14:58:25;
-  cltt 4 2026/07/16 14:48:25;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 00:50:56:6e:5e:b8;
-  uid "\001\000PVn^\270";
-}
-lease 10.150.71.101 {
-  starts 4 2026/07/16 14:48:35;
-  ends 4 2026/07/16 14:58:35;
-  tstp 4 2026/07/16 14:58:35;
-  cltt 4 2026/07/16 14:48:35;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 00:50:56:60:f2:f4;
-  uid "\001\000PV`\362\364";
-}
 lease 10.150.71.104 {
-  starts 4 2026/07/16 14:49:14;
-  ends 4 2026/07/16 14:59:14;
-  tstp 4 2026/07/16 14:59:14;
-  cltt 4 2026/07/16 14:49:14;
+  starts 5 2026/07/17 11:09:15;
+  ends 5 2026/07/17 11:19:15;
+  cltt 5 2026/07/17 11:09:15;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -76,32 +42,30 @@ lease 10.150.71.104 {
   uid "\001\000PV\260\324\177";
   client-hostname "CI-CON-HOST01";
 }
-server-duid "\000\001\000\0011\353\253\332\000PV\260\306\233";
-
-lease 10.150.71.102 {
-  starts 4 2026/07/16 14:51:52;
-  ends 4 2026/07/16 15:01:52;
-  cltt 4 2026/07/16 14:51:52;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 00:50:56:65:6e:5f;
-  uid "\001\000PVen_";
-}
 lease 10.150.71.103 {
-  starts 4 2026/07/16 14:52:56;
-  ends 4 2026/07/16 15:02:56;
-  cltt 4 2026/07/16 14:52:56;
+  starts 5 2026/07/17 11:10:09;
+  ends 5 2026/07/17 11:20:09;
+  cltt 5 2026/07/17 11:10:09;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 00:50:56:6e:5e:b8;
   uid "\001\000PVn^\270";
 }
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:10:52;
+  ends 5 2026/07/17 11:20:52;
+  cltt 5 2026/07/17 11:10:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
 lease 10.150.71.101 {
-  starts 4 2026/07/16 14:53:06;
-  ends 4 2026/07/16 15:03:06;
-  cltt 4 2026/07/16 14:53:06;
+  starts 5 2026/07/17 11:13:29;
+  ends 5 2026/07/17 11:23:29;
+  cltt 5 2026/07/17 11:13:29;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -109,9 +73,9 @@ lease 10.150.71.101 {
   uid "\001\000PV`\362\364";
 }
 lease 10.150.71.104 {
-  starts 4 2026/07/16 14:54:14;
-  ends 4 2026/07/16 15:04:14;
-  cltt 4 2026/07/16 14:54:14;
+  starts 5 2026/07/17 11:14:15;
+  ends 5 2026/07/17 11:24:15;
+  cltt 5 2026/07/17 11:14:15;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -119,10 +83,20 @@ lease 10.150.71.104 {
   uid "\001\000PV\260\324\177";
   client-hostname "CI-CON-HOST01";
 }
+lease 10.150.71.103 {
+  starts 5 2026/07/17 11:14:28;
+  ends 5 2026/07/17 11:24:28;
+  cltt 5 2026/07/17 11:14:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
 lease 10.150.71.102 {
-  starts 4 2026/07/16 14:56:41;
-  ends 4 2026/07/16 15:06:41;
-  cltt 4 2026/07/16 14:56:41;
+  starts 5 2026/07/17 11:15:01;
+  ends 5 2026/07/17 11:25:01;
+  cltt 5 2026/07/17 11:15:01;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -130,19 +104,29 @@ lease 10.150.71.102 {
   uid "\001\000PVen_";
 }
 lease 10.150.71.101 {
-  starts 4 2026/07/16 14:56:55;
-  ends 4 2026/07/16 15:06:55;
-  cltt 4 2026/07/16 14:56:55;
+  starts 5 2026/07/17 11:18:27;
+  ends 5 2026/07/17 11:28:27;
+  cltt 5 2026/07/17 11:18:27;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 00:50:56:60:f2:f4;
   uid "\001\000PV`\362\364";
 }
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:18:59;
+  ends 5 2026/07/17 11:28:59;
+  cltt 5 2026/07/17 11:18:59;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
 lease 10.150.71.103 {
-  starts 4 2026/07/16 14:57:24;
-  ends 4 2026/07/16 15:07:24;
-  cltt 4 2026/07/16 14:57:24;
+  starts 5 2026/07/17 11:19:06;
+  ends 5 2026/07/17 11:29:06;
+  cltt 5 2026/07/17 11:19:06;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -150,9 +134,9 @@ lease 10.150.71.103 {
   uid "\001\000PVn^\270";
 }
 lease 10.150.71.104 {
-  starts 4 2026/07/16 14:59:14;
-  ends 4 2026/07/16 15:09:14;
-  cltt 4 2026/07/16 14:59:14;
+  starts 5 2026/07/17 11:19:15;
+  ends 5 2026/07/17 11:29:15;
+  cltt 5 2026/07/17 11:19:15;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -161,9 +145,9 @@ lease 10.150.71.104 {
   client-hostname "CI-CON-HOST01";
 }
 lease 10.150.71.101 {
-  starts 4 2026/07/16 15:00:43;
-  ends 4 2026/07/16 15:10:43;
-  cltt 4 2026/07/16 15:00:43;
+  starts 5 2026/07/17 11:22:21;
+  ends 5 2026/07/17 11:32:21;
+  cltt 5 2026/07/17 11:22:21;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -171,9 +155,9 @@ lease 10.150.71.101 {
   uid "\001\000PV`\362\364";
 }
 lease 10.150.71.102 {
-  starts 4 2026/07/16 15:01:10;
-  ends 4 2026/07/16 15:11:10;
-  cltt 4 2026/07/16 15:01:10;
+  starts 5 2026/07/17 11:23:29;
+  ends 5 2026/07/17 11:33:29;
+  cltt 5 2026/07/17 11:23:29;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -181,12 +165,176 @@ lease 10.150.71.102 {
   uid "\001\000PVen_";
 }
 lease 10.150.71.103 {
-  starts 4 2026/07/16 15:01:35;
-  ends 4 2026/07/16 15:11:35;
-  cltt 4 2026/07/16 15:01:35;
+  starts 5 2026/07/17 11:23:59;
+  ends 5 2026/07/17 11:33:59;
+  cltt 5 2026/07/17 11:23:59;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 00:50:56:6e:5e:b8;
   uid "\001\000PVn^\270";
+}
+lease 10.150.71.104 {
+  starts 5 2026/07/17 11:24:15;
+  ends 5 2026/07/17 11:34:15;
+  cltt 5 2026/07/17 11:24:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:b0:d4:7f;
+  uid "\001\000PV\260\324\177";
+  client-hostname "CI-CON-HOST01";
+}
+lease 10.150.71.101 {
+  starts 5 2026/07/17 11:26:56;
+  ends 5 2026/07/17 11:36:56;
+  cltt 5 2026/07/17 11:26:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:27:40;
+  ends 5 2026/07/17 11:37:40;
+  cltt 5 2026/07/17 11:27:40;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.103 {
+  starts 5 2026/07/17 11:28:43;
+  ends 5 2026/07/17 11:38:43;
+  cltt 5 2026/07/17 11:28:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.104 {
+  starts 5 2026/07/17 11:29:15;
+  ends 5 2026/07/17 11:39:15;
+  cltt 5 2026/07/17 11:29:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:b0:d4:7f;
+  uid "\001\000PV\260\324\177";
+  client-hostname "CI-CON-HOST01";
+}
+lease 10.150.71.101 {
+  starts 5 2026/07/17 11:31:56;
+  ends 5 2026/07/17 11:41:56;
+  cltt 5 2026/07/17 11:31:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:32:07;
+  ends 5 2026/07/17 11:42:07;
+  cltt 5 2026/07/17 11:32:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.103 {
+  starts 5 2026/07/17 11:33:32;
+  ends 5 2026/07/17 11:43:32;
+  cltt 5 2026/07/17 11:33:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.104 {
+  starts 5 2026/07/17 11:34:15;
+  ends 5 2026/07/17 11:44:15;
+  cltt 5 2026/07/17 11:34:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:b0:d4:7f;
+  uid "\001\000PV\260\324\177";
+  client-hostname "CI-CON-HOST01";
+}
+lease 10.150.71.101 {
+  starts 5 2026/07/17 11:36:11;
+  ends 5 2026/07/17 11:46:11;
+  cltt 5 2026/07/17 11:36:11;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:36:40;
+  ends 5 2026/07/17 11:46:40;
+  cltt 5 2026/07/17 11:36:40;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
+}
+lease 10.150.71.103 {
+  starts 5 2026/07/17 11:37:19;
+  ends 5 2026/07/17 11:47:19;
+  cltt 5 2026/07/17 11:37:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.104 {
+  starts 5 2026/07/17 11:39:15;
+  ends 5 2026/07/17 11:49:15;
+  cltt 5 2026/07/17 11:39:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:b0:d4:7f;
+  uid "\001\000PV\260\324\177";
+  client-hostname "CI-CON-HOST01";
+}
+lease 10.150.71.101 {
+  starts 5 2026/07/17 11:41:02;
+  ends 5 2026/07/17 11:51:02;
+  cltt 5 2026/07/17 11:41:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:60:f2:f4;
+  uid "\001\000PV`\362\364";
+}
+lease 10.150.71.103 {
+  starts 5 2026/07/17 11:41:20;
+  ends 5 2026/07/17 11:51:20;
+  cltt 5 2026/07/17 11:41:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:6e:5e:b8;
+  uid "\001\000PVn^\270";
+}
+lease 10.150.71.102 {
+  starts 5 2026/07/17 11:41:23;
+  ends 5 2026/07/17 11:51:23;
+  cltt 5 2026/07/17 11:41:23;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:56:65:6e:5f;
+  uid "\001\000PVen_";
 }
